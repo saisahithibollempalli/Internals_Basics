@@ -1,0 +1,20 @@
+{
+    "experiment_name": "geosurvey-land-stability-score",
+    "models": [
+        {
+            "name": "Ridge",
+            "mae": 6.2404159224806595,
+            "rmse": 8.25033676791241,
+            "r2": 0.7374038486253681
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 6.733949519043686,
+            "rmse": 11.91988322208429,
+            "r2": 0.45186314248998727
+        }
+    ],
+    "best_model": "Ridge",
+    "best_metric_name": "mae",
+    "best_metric_value": 6.2404159224806595
+}

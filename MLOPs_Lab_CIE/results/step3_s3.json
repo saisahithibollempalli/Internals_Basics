@@ -1,0 +1,12 @@
+{
+  "image_name": "geosurvey-predictor",
+  "image_tag": "v1",
+  "base_image": "python:3.11-slim",
+  "test_input": {
+    "slope_degrees": 31.5,
+    "rainfall_mm": 208.1,
+    "soil_depth_m": 2.6,
+    "vegetation_index": 0.5
+  },
+  "prediction": 51.837922306013354
+}

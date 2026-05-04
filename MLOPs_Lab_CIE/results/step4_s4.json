@@ -1,0 +1,14 @@
+
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/predict",
+  "port": 8000,
+  "health_response": {"status": "healthy", "model_loaded": true},
+  "test_input": {
+    "slope_degrees": 31.5,
+    "rainfall_mm": 208.1,
+    "soil_depth_m": 2.6,
+    "vegetation_index": 0.5
+  },
+  "prediction": 51.837922306013354
+}
